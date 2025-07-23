@@ -278,7 +278,7 @@ def main():
     
     # Initialize the generator with Gemini API key
     if 'generator' not in st.session_state:
-        api_key = st.secrets.get("GEMINI_API_KEY", "your-gemini-api-key-here")  # Add your Gemini API key
+        api_key = st.secrets.get("GEMINI_API_KEY", "AIzaSyBYxBSfyw6XGt2EPvRDwijQwqpklnY5AfY")  # Add your Gemini API key
         if api_key == "your-gemini-api-key-here":
             st.error("Please add your Gemini API key to .streamlit/secrets.toml")
             st.code("""
